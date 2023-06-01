@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa DE tiendas</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style2.css">
+    <style>
+        #map {
+          height: 60vh;
+          width: 100%;
+        }
+      </style>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="index.html"><img src="./img/steren logo.png" alt="#"></a>
+        </div>
+        <div class="nav">
+            <div class="so">
+                <a href="envios.html"><img src="./img/envio.png" alt=""></a>
+                <a href="soporte.html"><img src="./img/soporte.png" alt=""></a>
+            </div>
+        </div>
+        <div class="opciones">
+            <a href="cuenta.html"><img src="./img/singup.png" alt="#"></a>
+            <img src="./img/icocuenta.png" alt="">
+        </div>
+    </div>
+    <div class="pages">
+        <div class="img">
+            <a href="index2.html"><img src="./img/tv.png" alt=""></a>
+        </div>
+        <div class="img2">
+            <a href="#"><img src="./img/audio.png" alt=""></a>
+        </div>
+        <div class="img3">
+            <a href="#"><img src="/img/cables.png" alt=""></a>
+        </div>
+        <div class="img4">
+            <a href="#"><img src="./img/electricidad.png" alt=""></a>
+        </div>
+        <div class="img5">
+            <a href="#"><img src="./img/seguridad.png" alt=""></a>
+        </div>
+        <div class="img6">
+            <a href="#"><img src="./img/masbuscado.png" alt=""></a>
+        </div>
+        <div class="img7">
+            <a href="index3.html"><img src="./img/tiendas.png" alt=" #"></a>
+        </div>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index2.html">Tv y Video</a>
+            <a href="index3.html">Location</a>
+            <a href="index4.html">Nosotros</a>
+            <a href="cuenta.html">Cuenta</a>
+          </div>
+          <button class="openbtn" onclick="openNav()">&#9776; </button>
+          <h2></h2>
+          <p></p>
+    </div>
+    <div class="return">
+        <button><i class="fa-solid fa-house" style="color: #00a6dd;"></i><a href="./index.html"></a></button>
+        <div class="textop2">
+            <p> MAPA  </p>
+            <div class="GTMAP">
+                <img src="./img/2gi.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="headmap">
+        <img src="./img/Mapa1.png" alt="#">
+        <div class="imgs">
+            <img src="./img/input2.png" alt="#">
+            <img src="./img/btm.png" alt="">
+        </div>
+    </div>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123512.12673543584!2d-90.56953968000192!3d14.669899505976352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a29a9c6fcce9%3A0xc927506103c88721!2sSteren%20Shop%20%E2%80%A2%20Metronorte!5e0!3m2!1ses-419!2sgt!4v1685637992389!5m2!1ses-419!2sgt" width="1500vw" height="500vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="nosotros">
+        <div class="box1">
+            <div class="imgh">
+                <img src="./img/suscribe.png" alt="">
+                <div class="enviar">
+                    <img src="./img/envio.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <h3>Siguenos en</h3>
+            <a href="" ><img src="./img/iconos.png" alt=""></a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a1a72cc2d7.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
