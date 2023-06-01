@@ -1,0 +1,96 @@
+
+.return{
+    display: flex;
+    margin: 10px 10px;
+    /* background-color: rgb(243, 101, 101); */
+}
+.return button{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.return .textop2{
+    display: flex;
+    justify-content: center;
+    
+}
+.return .textop2 p{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 4  0px;
+    font-size: 1.0rem;
+    margin: 4px 3px;
+}
+/* comienza seccion de imagenes */
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos_audio{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.headmap{
+    display: flex;
+    margin-left: 25px;
+}
+.headmap .imgs{
+    margin-left: 20px;
+}
+.return .textop2 .GTMAP{
+    display: flex;
+    margin-left: 70vw;
+    margin-bottom: 10px;
+}
+
+.welcome{
+    /* background-color: brown; */
+    height: 1000px;
+}
+.welcome .title{
+    height: 20vh;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.welcome .boxes{
+    /* background-color: chartreuse; */
+    margin-top: 60px;
+    text-align: center;
+}
+.welcome .categorias{
+    height: 45vh;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.welcome .categorias img{
+    margin-top: 70px
+}
+.mapa{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dirrecion .head .ti1{
+    width: 50vw;
+    margin: 0 50px;
+    /* background-color: brown; */
+    text-align: center;
+}
+.dirrecion .head .ti2{
+    width: 50vw;
+    margin: 0 50px;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.texto3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.lorem p{
+    margin-top: 60px;
+}
